@@ -1,0 +1,86 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+
+
+body{
+    background-color: whitesmoke;
+   
+}
+
+.first-container{
+    background-image: url("../image/maverick-frame-O4Z4p_nMvQI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 100px;
+    height: 48rem;
+    margin-bottom: 6rem;
+    
+}
+
+.second-container{
+    text-align: center;
+    text-transform: capitalize;
+    color: aliceblue;
+}
+
+
+
+#first-ptag{
+    text-transform: uppercase;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+
+#second-ptag{
+    margin-top: 0.1rem;
+    font-size: 50px;
+    
+}
+
+
+nav{
+    background-color: none;
+    text-align: left;
+    margin: 4rem;
+    list-style-type: none;
+    color: aliceblue;
+}
+
+nav li:first-child{
+    background-color: aqua;
+    border: 0.9px solid;
+    border-radius: 2rem;
+    padding: 5px 5px 5px 5px;
+}
+
+
+nav li a:hover{
+    color: #0077ff;
+    transform: scale(1.2);
+}
+
+nav li a{
+    color: white;
+    margin: 1px;
+}
+
+li{
+    display: inline-block;
+    margin: 0.5rem auto;
+    text-transform: capitalize;
+    margin-left: 90px;
+}
+
+li:hover{
+    text-decoration: underline;
+    color: aliceblue;   
+}
+
+
+.span-wrap{
+    text-transform: uppercase;
+    border: 3px solid white;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
